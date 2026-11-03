@@ -64,9 +64,9 @@ object InputConfig {
     // ACTION BUTTONS (Jump/Punch)
     // ============================================================
 
-    const val JUMP_X = 0.797f
-    const val PUNCH_X = 0.889f
-    const val ACTION_Y = 0.87f
+    const val JUMP_X = 0.82f
+    const val PUNCH_X = 0.92f
+    const val ACTION_Y = 0.76f
 
     // ============================================================
     // TOUCHPAD / CURSOR
@@ -92,8 +92,8 @@ object InputConfig {
     // OVERLAY POSITIONING
     // ============================================================
 
-    /** Native target Y from top (0.87 = 13% from bottom) */
-    const val NATIVE_TARGET_Y_FROM_TOP = 0.87f
+    /** Native target Y from top (0.76 = 24% from bottom, matches screenshot buttons) */
+    const val NATIVE_TARGET_Y_FROM_TOP = 0.76f
 
     /** Button radius for 80dp circular buttons */
     const val BUTTON_RADIUS_DP = 40
