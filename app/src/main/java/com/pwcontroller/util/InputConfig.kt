@@ -24,6 +24,9 @@ object InputConfig {
     /** Hold pulse interval for keep-alive moves (30fps = smooth for Unity) */
     const val HOLD_PULSE_MS = 33L
 
+    /** Hold chunk duration for continued strokes (API 26+) - 5 seconds per chunk */
+    const val HOLD_CHUNK_MS = 5000L
+
     /** Swipe gesture duration */
     const val SWIPE_DURATION_MS = 300L
 

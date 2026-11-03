@@ -338,8 +338,6 @@ class GestureDispatcher(private val service: AccessibilityService) : InputDispat
 
     companion object {
         // Timing optimized for Pixel Worlds (Unity-based)
-        // Hold chunks: 5 seconds per chunk (API 26+ continueStroke)
-        private const val HOLD_CHUNK_MS = 5000L
         // Tap duration for accessibility gestures
         private const val TAP_DURATION_MS = 180L
     }
