@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvEditModeIndicator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#CCFF0000"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"
+    android:text="@string/edit_mode_on"
+    android:textColor="@color/white"
+    android:textSize="14sp"
+    android:visibility="gone" />

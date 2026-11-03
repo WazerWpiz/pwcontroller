@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_end">#4F8CFF</color>
+    <color name="accent_start">#6750A4</color>
+    <color name="card_outline">#303842</color>
+    <color name="card_surface">#191E25</color>
+    <color name="on_accent">#FFFFFFFF</color>
+    <color name="on_status">#101318</color>
+    <color name="on_warning_container">#FFE2A8</color>
+    <color name="row_highlight">#332D20</color>
+    <color name="screen_background">#101318</color>
+    <color name="status_error">#FF6B6B</color>
+    <color name="status_success">#58D68D</color>
+    <color name="status_warning">#F6C453</color>
+    <color name="text_primary">#E6EAF0</color>
+    <color name="text_secondary">#AAB4C0</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning_container">#4A3510</color>
+    <color name="white">#FFFFFFFF</color>
+    <style name="Theme.PWController" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+        <item name="colorPrimary">@color/accent_end</item>
+        <item name="colorOnPrimary">@color/on_accent</item>
+        <item name="colorSurface">@color/card_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/card_outline</item>
+        <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+    </style>
+    <style name="Theme.PWController.NoActionBar" parent="Theme.PWController">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

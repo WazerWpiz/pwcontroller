@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_save_profile"
+        android:title="@string/menu_save_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_profile"
+        android:title="@string/menu_load_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_injection"
+        android:title="@string/menu_test_injection"
+        app:showAsAction="never" />
+</menu>
